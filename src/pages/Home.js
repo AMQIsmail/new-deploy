@@ -24,7 +24,7 @@ class HomePage extends Component{
        const ZipAxtra = cityAll.map(this.AxtraZip);
         return(
             <Fragment>
-                <h1>This is Home Page. deploy netlify active.</h1>
+                <h1>This is Home Page. deploy netlify active ok.</h1>
                 <div style={{textAlign: 'center', marginTop: '200px'}}>
                    <select>{CityAxtra}</select> <select>{ZipAxtra}</select>
                 </div>
