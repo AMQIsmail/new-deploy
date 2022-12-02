@@ -36,6 +36,8 @@ export default function App(){
 /*
 1. git status
 2. git add .
+3. git commit -m"first commit"
+4. git push
 */
 
 // basename={process.env.NODE_ENV === 'production'?'/new-deploy':''}
