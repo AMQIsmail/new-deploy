@@ -1,5 +1,4 @@
 import React, {Component, Fragment} from 'react';
-import Layout from './Laout';
 class HomePage extends Component{
     AxtraCity = (axtra) =>{
         return <option>{'City Is : ' + axtra.city}</option>
@@ -25,8 +24,7 @@ class HomePage extends Component{
        const ZipAxtra = cityAll.map(this.AxtraZip);
         return(
             <Fragment>
-                <Layout />
-                <h1>This is Home Page. finell update.</h1>
+                <h1>This is Home Page. finell.</h1>
                 <div style={{textAlign: 'center', marginTop: '200px'}}>
                    <select>{CityAxtra}</select> <select>{ZipAxtra}</select>
                 </div>
