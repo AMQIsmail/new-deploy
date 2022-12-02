@@ -38,6 +38,8 @@ export default function App(){
 2. git add .
 3. git commit -m"first commit"
 4. git push
+5. npm run build
+6. npm run deploy
 */
 
 // basename={process.env.NODE_ENV === 'production'?'/new-deploy':''}
