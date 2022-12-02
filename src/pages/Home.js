@@ -24,7 +24,7 @@ class HomePage extends Component{
        const ZipAxtra = cityAll.map(this.AxtraZip);
         return(
             <Fragment>
-                <p>hello new </p>
+                <h1>This is Home Page.</h1>
                 <div style={{textAlign: 'center', marginTop: '200px'}}>
                    <select>{CityAxtra}</select> <select>{ZipAxtra}</select>
                 </div>

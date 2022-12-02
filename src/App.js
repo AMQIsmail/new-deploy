@@ -9,11 +9,11 @@ import NoPage from "./pages/Nopage";
 export default function App(){
   return (
     <BrowserRouter>
-      <Routes basename={process.env.NODE_ENV === 'production'?'/new-deploy':''}>
-        <Route path="/" element={<Layout />}>
+      <Routes>
+        <Route path="/new-deploy/" element={<Layout />}>
           <Route index element={<HomePage />} />
-          <Route path="contact" element={<ContactPage />} />
-          <Route path="About" element={<AboutPage />} />
+          <Route path="/new-deploy/contact" element={<ContactPage />} />
+          <Route path="/new-deploy/About" element={<AboutPage />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
@@ -32,6 +32,7 @@ export default function App(){
    npm run build
    npm run deploy
 */
+
 
 /*
 1. git status
