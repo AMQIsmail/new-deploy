@@ -3,19 +3,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"; //npm install r
 import HomePage from "./pages/Home";
 import ContactPage from "./pages/contact";
 import AboutPage from "./pages/About";
-import Layout from "./pages/Laout";
+//import Layout from "./pages/Laout";
 import NoPage from "./pages/Nopage";
 
 export default function App(){
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/new-deploy/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="/new-deploy/contact" element={<ContactPage />} />
-          <Route path="/new-deploy/About" element={<AboutPage />} />
+          <Route path="/" element={<HomePage />}></Route>
+          {/* <Route index element={<HomePage />} /> */}
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/About" element={<AboutPage />} />
           <Route path="*" element={<NoPage />} />
-        </Route>
       </Routes>
     </BrowserRouter>
   );

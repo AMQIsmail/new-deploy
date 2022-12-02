@@ -5,13 +5,13 @@ const Layout = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/new-deploy/">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/new-deploy/About">About</Link>
+            <Link to="/About">About</Link>
           </li>
           <li>
-            <Link to="/new-deploy/contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
