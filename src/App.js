@@ -9,13 +9,14 @@ import NoPage from "./pages/Nopage";
 export default function App(){
   return (
     <BrowserRouter>
+      <Layout />
       <Routes>
-          <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
+          {/* <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} /> */}
+          <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/About" element={<AboutPage />} />
           <Route path="*" element={<NoPage />} />
-          </Route>
       </Routes>
     </BrowserRouter>
   );

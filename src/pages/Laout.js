@@ -1,22 +1,21 @@
-import { Outlet, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import './active.css';
 const Layout = () => {
   return (
     <>
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/About">About</Link>
+            <NavLink to="/About">About</NavLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </nav>
-
-      <Outlet />
     </>
   )
 };
