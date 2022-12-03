@@ -13,7 +13,7 @@ function BlogsPage(){
        }
   }
   const articleStyle = {
-    width: '500px',
+    width: '800px',
     height: '200px',
     margin: '5px auto',
     background: 'black',
@@ -23,7 +23,7 @@ function BlogsPage(){
   }
   return(
     <Fragment>
-       <h1>Blogs Page.</h1>
+       <h1 style={{textAlign: 'center'}}>Blogs Page.</h1>
        <section>
         {blogs.map((blog)=>{
           const {id, title, body} = blog;

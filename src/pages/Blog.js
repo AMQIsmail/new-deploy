@@ -12,7 +12,7 @@ function Blog(){
     }, [])
     const articleStyle = {
         width: '700px',
-        height: '400px',
+        height: '450px',
         margin: '5px auto',
         background: 'black',
         color: '#fff',
@@ -24,7 +24,8 @@ function Blog(){
        <div style={articleStyle}>
             <h2>Show Blog</h2>
             <h1>{title} Topic.</h1>
-            <p>{bodyData.slice(0,800)}</p>
+            <p>{bodyData.slice(0,300)}</p>
+            <p>{bodyData.slice(301,800)}</p>
             <button onClick={()=>{
                 navigate("/Blogs")
             }}>Go to Blogs Page</button>
