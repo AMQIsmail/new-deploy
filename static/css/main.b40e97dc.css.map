@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.b40e97dc.css","mappings":"AAAA,YACI,SACJ","sources":["pages/active.css"],"sourcesContent":["nav .active{\r\n    color: red;\r\n}"],"names":[],"sourceRoot":""}
