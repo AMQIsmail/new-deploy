@@ -4,6 +4,7 @@ import HomePage from "./pages/Home";
 import ContactPage from "./pages/contact";
 import AboutPage from "./pages/About";
 import BlogsPage from "./pages/Blogs";
+import Blog from "./pages/Blog";
 import Layout from "./pages/Laout";
 import NoPage from "./pages/Nopage";
 
@@ -18,6 +19,7 @@ export default function App(){
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/About" element={<AboutPage />} />
           <Route path="/Blogs" element={<BlogsPage />} />
+          <Route path="/Blogs/:title" element={<Blog />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

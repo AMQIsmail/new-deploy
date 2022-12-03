@@ -14,6 +14,9 @@ const Layout = () => {
           <li>
             <NavLink to="/Blogs">Blogs</NavLink>
           </li>
+          {/* <li>
+            <NavLink to="/Blog">Blog</NavLink>
+          </li> */}
           <li>
             <NavLink to="/contact">Contact</NavLink>
           </li>
