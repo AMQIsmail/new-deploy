@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import {blogsData} from "./data";
 
 function BlogsPage(){
-  const [blogs, setBlogs] = useState(blogsData);
+  const [blogs] = useState(blogsData);
 
   const truncateString = (str, num) => {
        if(str.length > num){
